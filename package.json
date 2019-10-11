@@ -1,0 +1,29 @@
+{
+  "name": "own-server",
+  "version": "0.0.1",
+  "author": "Joshim Uddin <joshimcse@gmail.com>",
+  "description": "A minimalist Zero Configuration local web server for full stack development",
+  "main": "./lib/own-server",
+  "license": "ISC",
+  "bin": {
+    "os": "./bin/os.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "local",
+    "web",
+    "server",
+    "tool",
+    "frontend",
+    "backend",
+    "full stack"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
