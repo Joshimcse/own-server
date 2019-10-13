@@ -1,6 +1,6 @@
 {
   "name": "own-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Joshim Uddin <joshimcse@gmail.com>",
   "description": "A minimalist Zero Configuration local web server for full stack development",
   "main": "./lib/own-server",
