@@ -5,7 +5,6 @@ const fs = require('fs'),
   files = [],
   dirs = [];
 
-
 const ignores = fs.readFileSync(path.join(__dirname, 'static.ignore'), 'utf8')
   .split('\n')
   .map(item => item.trim().toUpperCase())

@@ -28,7 +28,7 @@ if (argv.h || argv.help) {
 }
 
 require('../lib/own-server')({ isSPA }).listen(port, () => {
-  console.log('Magic Happent on port ' + port)
+  console.log(`Listening on http://localhost:${port}, http://127.0.0.1:${port}`)
 });
 
 if (process.platform === 'win32') {
